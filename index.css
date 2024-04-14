@@ -1,0 +1,117 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .logo img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+header .nombre-compañia {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item h3 {
+  color: #333;
+}
+
+/* Estilos específicos para el pie de página */
+
+.pie-pagina {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.pie-pagina small {
+  font-size: 14px;
+}
+
+/* Estilos específicos para la sección Nosotros */
+
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.miembro {
+  width: 45%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.miembro img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+/* Estilos para los iconos de redes sociales en el pie de página */
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  color: #ffd700; /* Cambia el color al pasar el cursor */
+}
